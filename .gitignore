@@ -26,6 +26,9 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
+## Other
+*.xcuserstate
+
 ## Obj-C/Swift specific
 *.hmap
 
