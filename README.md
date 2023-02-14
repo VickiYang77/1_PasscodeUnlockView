@@ -16,19 +16,22 @@
 - 直接將 Main storyboard 視為主頁面來開發
 - 未使用特殊架構，UI 元件皆是用 storyboard 拉出來的
 - 使用stackView處理想自動平均分佈的畫面
-![image](https://user-images.githubusercontent.com/25075180/218506697-5f238024-be49-4c9a-9baf-642959762b0a.png)
+
+    ![stack1](https://user-images.githubusercontent.com/25075180/218798884-1eff4bd1-7393-4215-9cfc-c53daa4a2776.png)
 
 - 使用stackView刻出數字鍵盤
-![image](https://user-images.githubusercontent.com/25075180/218506749-0d5ee6df-b93e-4e62-a4df-44a39944e955.png)
+
+    ![stack2](https://user-images.githubusercontent.com/25075180/218798911-0582bf2c-d92f-4cbd-9ccc-bad4541390e0.png)
 
 - 判別按下的數字鍵
     
     透過取得的 button tag 來區分數字鍵，並抓取 sender.currentTitle 獲取按鈕的值
-    ![image](https://user-images.githubusercontent.com/25075180/218507189-046153d3-a25a-44dd-975a-5edca95b0cfe.png)
+    ![code](https://user-images.githubusercontent.com/25075180/218798975-ec794056-4784-43c1-ac39-c5e3e66c4d83.png)
     
 
 - **抓取 sender.currentTitle 的值**
     
     需把 UIButton Style 設定成 Default
     
-    ![image](https://user-images.githubusercontent.com/25075180/218506823-c574923b-5307-4f44-bee9-291a2f5c15ae.png)
+    ![image](https://user-images.githubusercontent.com/25075180/218799007-c4935195-ce00-44a3-8c7a-356347e7a3ff.png)
+
